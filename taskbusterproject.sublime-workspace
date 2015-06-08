@@ -1,0 +1,166 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 67.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/alex.terela/Downloads/Preferences.sublime-settings",
+		"/Users/alex.terela/Downloads/Package Control.sublime-settings",
+		"/Users/alex.terela/Sites/mysite/mysite/urls.py",
+		"/Users/alex.terela/Sites/mysite/mysite/settings.py",
+		"/Users/alex.terela/Sites/mysite/mysite/wsgi.py",
+		"/Users/alex.terela/Documents/Django Notes",
+		"/Users/alex.terela/Sites/mysite/manage.py",
+		"/Users/alex.terela/Sites/mysite/polls/admin.py",
+		"/Users/alex.terela/Sites/mysite/polls/views.py",
+		"/Users/alex.terela/Sites/mysite/polls/tests.py",
+		"/Users/alex.terela/Sites/mysite/polls/models.py",
+		"/Users/alex.terela/Sites/testsite/testsite/wsgi.py",
+		"/Users/alex.terela/Sites/testsite/testsite/urls.py",
+		"/Users/alex.terela/Sites/testsite/testsite/settings.py",
+		"/Users/alex.terela/Sites/testsite/manage.py",
+		"/Users/alex.terela/Sites/testsite/testsite/__init__.py",
+		"/Users/alex.terela/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"settings_module"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
