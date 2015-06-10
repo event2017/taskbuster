@@ -15,6 +15,12 @@ import os
 
 from django.core.exceptions import ImproperlyConfigured
 
+from django.utils.translation import ugettext_lazy as _
+LANGUAGES = (
+        ('en', _('English')),
+        ('ca', _('Catalan')),
+)
+
 #BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
@@ -51,10 +57,12 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_extensions',
 )
 
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.middleware.locale.LocaleMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -106,7 +114,12 @@ DATABASES = {
 
 LANGUAGE_CODE = 'en-us'
 
+LOCALE_PATHS = (
+        os.path.join(BASE_DIR, 'locale'),
+)
+
 TIME_ZONE = 'UTC'
+#TIME_ZONE = 'Europe/Madrid'
 
 USE_I18N = True
 
